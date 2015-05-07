@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Complete</title>
+<meta name="viewport" content="width-device-width"  initial-scale="1.0"/>
+<meta name="description" content="Your description"/>
+<meta name="keywords" content="keyword1 keyword2"/>
+<link href="css/bootstrap.min.css" rel="stylesheet" >
+<link href="css/style1.css" rel="stylesheet" >
+
+</head>
+
+<body background="WebpageImg\background.jpg" style="height:800px;">
+
+  
+ <nav class="navbar navbar-inverse" role="navigation">
+ <div class="container">
+  <div class="navbar-header">
+    <ul class="nav navbar-nav">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Services</a></li>
+
+</ul>
+  </div>
+  </div>
+</nav>
+   <!-- maincontent Starts -->
+   
+  <div class="container" style="padding-top:50px;color:white;">
+       
+        <div style="float:left;background-color:#007F00; box-shadow: 10px 10px 5px #0D016D;border-radius:6px;width:400px;">
+        &nbsp;&nbsp;
+        
+        <h3 style="padding-left:110px;">User Registration </h3>
+        <div style="padding-left:65px;">
+        <img src="WebpageImg\line.jpg" />
+        </div></br>
+        <form method="post" action="UserRegister.jsp">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <b>UserName:</b> <div class="input-group" style="padding-left:50px;"> <input name="uname" type="text" class="form-control" placeholder="Username"  style="border-radius:6px; width:300px; font-style:italic;" aria-describedby="basic-addon2"></div>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Email id:</b><div class="input-group" style="padding-left:50px;"> <input name="uemail" type="text" class="form-control" placeholder="emailid@email.com"  style="border-radius:6px; width:300px; font-style:italic;" aria-describedby="basic-addon2"></div>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Contact no:</b><div class="input-group" style="padding-left:50px;"> <input name="uphone" type="text" class="form-control" placeholder="10-digit Mobile Number"  style="border-radius:6px; width:300px; font-style:italic;" aria-describedby="basic-addon2"></div>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Location:</b><div class="input-group" style="padding-left:50px;"> <input name="ulocate" type="text" class="form-control" placeholder="City"  style="border-radius:6px; width:300px; font-style:italic;" aria-describedby="basic-addon2"></div>
+              </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Password Type:</b>&nbsp;&nbsp;<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+    <div class="input-group" style="padding-left:70px;">
+      <span class="input-group-addon">
+        <input type="radio" name="pwd" value="tpwd"   checked>
+      </span>
+      <input type="text" class="form-control" placeholder="Password" style="width:200px;" readonly>
+    </div><!-- /input-group -->
+ 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             
+             <div class="input-group" style="padding-left:70px;">
+      <span class="input-group-addon">
+        <input type="radio" name="pwd" value="tcap"   >
+      </span>
+      <input type="text" class="form-control" placeholder="Text Captcha" style="width:200px;" readonly>
+    </div><!-- /input-group -->
+             
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               
+               <div class="input-group" style="padding-left:70px;">
+      <span class="input-group-addon">
+        <input type="radio" name="pwd" value="gcap"   >
+      </span>
+      <input type="text" class="form-control" placeholder="Graphical Captcha" style="width:200px;" readonly>
+    </div><!-- /input-group --><br></br>
+               	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               	<button type="submit" style="height:35px;padding-top:5px; border-color:#000000; border-width:thin;" class="btn btn-default btn-lg">
+  <span  aria-hidden="true"></span> Submit
+</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="reset" style="height:35px;padding-top:5px;border-width:thin;" class="btn btn-default btn-lg">
+  <span  aria-hidden="true"></span> Reset
+</button>
+<br><br>
+            </form>
+            
+            </div>
+           <div class="container" style="color:white;padding-top:100px;">
+				<div style="float:right;background-color:#007F00; box-shadow: 10px 10px 5px #0D016D;border-radius:6px;width:400px;">            
+               <h3 style="padding-left:140px;padding-bottom:5px;padding-top:10px;">User Login </h3>
+           <div style="padding-left:65px;">
+        <img src="WebpageImg\line.jpg" />
+        </div></br>
+            <form method="post" action="verifyuser.jsp">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <b>UserName:</b> 
+                
+                <div class="input-group" style="padding-left:50px;"> <input name="uname" type="text" class="form-control" placeholder="Username"  style="border-radius:6px; width:300px; font-style:italic;" aria-describedby="basic-addon2"></div>
+             <br><br></br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit" style="height:35px; border-color:#000000;padding-top:5px;" class="btn btn-default btn-lg">
+              <span  aria-hidden="true"></span> Submit
+            </button>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <button type="reset" style="height:35px;padding-top:5px;" class="btn btn-default btn-lg">
+  <span  aria-hidden="true"></span> Reset
+</button><br><br>
+<div style="padding-left:160px;color:white;">
+</br>             <a href="forgot.jsp"><font color="white">Forgot Password</font></a>
+             </br></br>
+</div>
+            </form>
+            
+        </div>
+        </div>
+        
+        </div>
+</body>
+</html>
